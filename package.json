@@ -1,0 +1,43 @@
+{
+  "name": "vuex-persist",
+  "version": "1.0.0",
+  "description": "Vuex Plugin to persist state to Local Storage, Session Storage, Cookie, IndexedDB, or Remote",
+  "main": "dist/vuex-persist.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinBeaudry/vuex-persist.git"
+  },
+  "keywords": [
+    "vue",
+    "vuex",
+    "persist",
+    "local",
+    "storage",
+    "cookie",
+    "indexeddb",
+    "session",
+    "storage",
+    "persist",
+    "state"
+  ],
+  "author": "Justin Beaudry <beaudry.justin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JustinBeaudry/vuex-persist/issues"
+  },
+  "homepage": "https://github.com/JustinBeaudry/vuex-persist#readme",
+  "dependencies": {
+    "dexie": "1.x.x",
+    "lodash": "^4.17.4",
+    "vault.js": "1.x.x",
+    "vue": "2.x.x",
+    "vuex": "2.x.x",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "devDependencies": {
+    "rollup": "0.x.x"
+  }
+}
